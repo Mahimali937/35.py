@@ -1,0 +1,13 @@
+#Name:Mahim Ali
+#Email:mahim.ali32@myhunter.cuny.edu
+#Date:November 3,2022
+#This program prints greetings by the hour
+
+x = int(input("Enter hour (in 24 hour time): "))
+
+if x < 12:
+    print("Good Morning")
+elif x >= 12 and x < 17:
+    print("Good Afternoon")
+else:
+    print("Good Evening")
